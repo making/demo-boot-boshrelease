@@ -1,0 +1,14 @@
+---
+meta:
+  environment: NAME
+  dns_root: microbosh
+  security_groups:
+    - demo_boot
+  stemcell:
+    name: STEMCELL
+
+director_uuid: PLACEHOLDER-DIRECTOR-UUID
+
+releases:
+  - name: demo-boot
+    version: latest
