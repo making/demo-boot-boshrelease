@@ -1,0 +1,5 @@
+check process demo
+  with pidfile /var/vcap/sys/run/demo/demo.pid
+  start program "/var/vcap/jobs/demo/bin/monit_debugger demo_ctl '/var/vcap/jobs/demo/bin/ctl start'"
+  stop program "/var/vcap/jobs/demo/bin/monit_debugger demo_ctl '/var/vcap/jobs/demo/bin/ctl stop'"
+  group vcap

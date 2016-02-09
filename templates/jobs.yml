@@ -9,9 +9,9 @@ update:
   serial: false
 
 jobs:
-  - name: just_install_packages
+  - name: demo
     templates:
-    - name: just_install_packages
+    - name: demo
       release: demo-boot
     instances: 1
     persistent_disk: 0

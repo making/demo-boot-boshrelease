@@ -1,0 +1,7 @@
+# -*- mode:yaml -*-
+---
+name: demo
+dependencies:
+- java
+files:
+- demo/**/*  
