@@ -1,0 +1,26 @@
+---
+packages:
+- name: demo
+  version: aa024591de2828f92fc23d31410a91e3a9866f52
+  fingerprint: aa024591de2828f92fc23d31410a91e3a9866f52
+  sha1: 5c3705f4df443a70b860ec6ecf4d565e4353fd57
+  dependencies:
+  - java
+- name: java
+  version: 45c2a54e5643a2c8010af7c37be1044a2fbee7ca
+  fingerprint: 45c2a54e5643a2c8010af7c37be1044a2fbee7ca
+  sha1: 8321fc0730613f224110971378b10ba98b0aeeed
+  dependencies: []
+jobs:
+- name: demo
+  version: 5851de3b4c6ec143382c50f13330326d2cabcd7b
+  fingerprint: 5851de3b4c6ec143382c50f13330326d2cabcd7b
+  sha1: ea16a72901e2aa86f57984808272fa73bd6766dd
+license:
+  version: d1532c07558a0f0966c4c2217edec2b3174e666b
+  fingerprint: d1532c07558a0f0966c4c2217edec2b3174e666b
+  sha1: bf1f2e21abd6cfe57837d33f775afdcb80d25f87
+commit_hash: 8aada95f
+uncommitted_changes: false
+name: demo-boot
+version: '2'
