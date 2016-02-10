@@ -14,5 +14,5 @@ PATH=/var/vcap/packages/java/bin:$PATH
 JAVA_HOME=/var/vcap/packages/java
 
 pushd demo
-cp target/*.jar $BOSH_INSTALL_TARGET/demo.jar
+cp -a demo-0.0.1.RELEASE.jar $BOSH_INSTALL_TARGET/demo.jar
 popd

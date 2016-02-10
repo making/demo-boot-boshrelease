@@ -4,4 +4,4 @@ name: demo
 dependencies:
 - java
 files:
-- demo/target/*.jar  
+- demo/demo-0.0.1.RELEASE.jar  
