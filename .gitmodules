@@ -1,3 +1,6 @@
 [submodule "packages/java"]
 	path = packages/java
 	url = https://github.com/making/java-boshpackage
+[submodule "src/demo"]
+	path = src/demo
+	url = https://github.com/making/hello-spring-boot
