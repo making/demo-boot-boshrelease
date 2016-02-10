@@ -1,1 +1,9 @@
---- {}
+---
+demo/demo-0.0.1.RELEASE.jar:
+  object_id: ac93c817-095d-4536-8a16-e5176cd14700
+  sha: 0f6ad86047fc184b1258288cb6093fa0fb3600ff
+  size: 13842636
+java/openjdk-jdk-trusty-1.8.0_73.tar.gz:
+  object_id: 2bff160c-f692-463d-9a18-476cf0b395c4
+  sha: 251144ff72db0b9c2f73446cbb0549b0ecf3d499
+  size: 77620313
