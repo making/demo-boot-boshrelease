@@ -1,7 +1,13 @@
 #!/bin/sh
 
 echo "==== Update submodules  ===="
-git submodule update --init --recursive
+# Update submodule pointers; Clean out any submodule changes
+git submodule sync
+git submodule foreach --recursive 'git submodule sync; git clean -d --force --force'
+
+# Update submodule content, checkout if necessary
+git submodule update --init --recursive --force
+
 
 echo "==== Prepare Blob (java) ===="
 pushd packages/java
