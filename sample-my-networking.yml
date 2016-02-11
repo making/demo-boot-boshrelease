@@ -1,0 +1,17 @@
+---
+networks:
+  - name: demo_boot1
+    type: dynamic
+    cloud_properties:
+      security_groups:
+        - demo_boot
+        - bosh
+      subnet: subnet-647a2d13
+      
+jobs:
+  - name: demo
+    networks:
+      - name: demo_boot1
+        default: [dns, gateway]
+      - name: floating
+        static_ips: [52.193.171.93]
